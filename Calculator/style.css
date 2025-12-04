@@ -1,0 +1,81 @@
+*{
+            margin: 0;
+            padding: 0;
+        } 
+        p{
+            text-align: center;
+            font-size: 35px;
+            background: linear-gradient(black, white);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .calc{
+            width: 100%;
+          height: fit-content;
+          background-color: black;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+          padding: 20px;  
+          margin: 40px auto;
+          border-radius: 25px;
+          display: flex;
+          flex-wrap: wrap;
+          /* justify-content: center; */
+          /* gap: 5px; */
+        }
+        input{
+            display: block;
+            width: 90%;
+            margin: 0px auto;
+            text-align: right;
+            color: white;
+            font-size: 45px;
+            margin-top: 0px;
+            /* padding: 5px 1px; */
+            /* border: 1px solid #ddd; */
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-bottom: 2px;
+            background-color: black;
+        }
+         input::placeholder{
+            color: white;
+            font-size: 45px;
+         }
+          button{
+            font-size: 20px;
+            font-weight: bold;
+            width: 23%;
+            height: 60px;
+            border: 1px solid black;
+            color: white;
+            transition: all 0.5s ease-in-out;
+            background-color: rgba(184, 174, 174, 0.647);
+            /* margin: 5px 5px; */
+            margin: 5px auto;
+            border-radius: 35px;
+            align-items: center;
+            cursor: pointer;
+          }
+          button:hover{
+            background-color: rgba(231, 231, 231, 0.858);
+            /* border: 5px solid white; */
+            color: black;
+          }
+
+          .orange{
+            background-color: orange;
+          }
+            .orange:hover{
+            background-color: rgb(255, 215, 140);
+          }
+
+          .whites{
+           background-color: rgba(231, 231, 231, 0.858);
+           color: black;
+          }
+          .whites:hover{
+            background-color:  rgba(231, 231, 231, 0.321);
+            color: white;
+          }

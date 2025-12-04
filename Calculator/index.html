@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toras Calc</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <p>Toras Calculator</p> -->
+<div class="row w-100 m-0 p-0 " style="height: 100vh;">
+    <div class="calc col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3  mx-auto">
+        <input type="text" id="inp" placeholder="0">
+        <input type="text" id="inp2" placeholder="">
+
+         <button onclick="clearFn()" class="whites">C</button>
+        <button onclick="del()" class="whites">DEL</button>
+        <button onclick="sqrtFn()" class="whites">√</button>
+        <button onclick="btnFn('/')" class="orange">÷</button>
+
+
+        <button onclick="btnFn('7')">7</button>
+        <button onclick="btnFn('8')">8</button>
+        <button onclick="btnFn('9')">9</button>
+        <button onclick="btnFn('*')" class="orange">x</button>
+
+        <button onclick="btnFn('4')">4</button>
+        <button onclick="btnFn('5')">5</button>
+        <button onclick="btnFn('6')">6</button>
+        <button onclick="btnFn('-')" class="orange">-</button>
+        
+        <button onclick="btnFn('1')">1</button>
+        <button onclick="btnFn('2')">2</button>
+        <button onclick="btnFn('3')">3</button>
+        <button onclick="btnFn('+')" class="orange">+</button>
+
+        <button onclick="btnFn('0')">0</button>
+        <button onclick="btnFn('.')">.</button>
+        <button onclick="btnFn('%')">%</button>
+        <button onclick="equal()" class="orange">=</button>
+
+
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
